@@ -1,4 +1,4 @@
-# rc-notification
+# rmc-notification
 ---
 
 React Notification UI Component
@@ -10,18 +10,18 @@ React Notification UI Component
 [![node version][node-image]][node-url]
 [![npm download][download-image]][download-url]
 
-[npm-image]: http://img.shields.io/npm/v/rc-notification.svg?style=flat-square
-[npm-url]: http://npmjs.org/package/rc-notification
-[travis-image]: https://img.shields.io/travis/react-component/notification.svg?style=flat-square
-[travis-url]: https://travis-ci.org/react-component/notification
-[coveralls-image]: https://img.shields.io/coveralls/react-component/notification.svg?style=flat-square
-[coveralls-url]: https://coveralls.io/r/react-component/notification?branch=master
-[gemnasium-image]: http://img.shields.io/gemnasium/react-component/notification.svg?style=flat-square
-[gemnasium-url]: https://gemnasium.com/react-component/notification
+[npm-image]: http://img.shields.io/npm/v/rmc-notification.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/rmc-notification
+[travis-image]: https://img.shields.io/travis/react-component/m-notification.svg?style=flat-square
+[travis-url]: https://travis-ci.org/react-component/m-notification
+[coveralls-image]: https://img.shields.io/coveralls/react-component/m-notification.svg?style=flat-square
+[coveralls-url]: https://coveralls.io/r/react-component/m-notification?branch=master
+[gemnasium-image]: http://img.shields.io/gemnasium/react-component/m-notification.svg?style=flat-square
+[gemnasium-url]: https://gemnasium.com/react-component/m-notification
 [node-image]: https://img.shields.io/badge/node.js-%3E=_0.10-green.svg?style=flat-square
 [node-url]: http://nodejs.org/download/
-[download-image]: https://img.shields.io/npm/dm/rc-notification.svg?style=flat-square
-[download-url]: https://npmjs.org/package/rc-notification
+[download-image]: https://img.shields.io/npm/dm/rmc-notification.svg?style=flat-square
+[download-url]: https://npmjs.org/package/rmc-notification
 
 
 ## Development
@@ -35,7 +35,7 @@ npm start
 
 http://localhost:8000/examples/
 
-online example: http://react-component.github.io/notification/examples/
+online example: http://react-component.github.io/m-notification/examples/
 
 
 ## Feature
@@ -45,12 +45,12 @@ online example: http://react-component.github.io/notification/examples/
 
 ## install
 
-[![rc-notification](https://nodei.co/npm/rc-notification.png)](https://npmjs.org/package/rc-notification)
+[![rmc-notification](https://nodei.co/npm/rmc-notification.png)](https://npmjs.org/package/rmc-notification)
 
 ## Usage
 
 ```js
-var Notification = require('rc-notification');
+var Notification = require('rmc-notification');
 Notification.newInstance({}, notification => {
   notification.notice({
     content: 'content'
@@ -173,4 +173,4 @@ open coverage/ dir
 
 ## License
 
-rc-notification is released under the MIT license.
+rmc-notification is released under the MIT license.

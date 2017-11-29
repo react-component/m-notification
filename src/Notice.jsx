@@ -57,9 +57,7 @@ export default class Notice extends Component {
       [props.className]: !!props.className,
     };
     return (
-      <div className={classNames(className)} style={props.style} onMouseEnter={this.clearCloseTimer}
-        onMouseLeave={this.startCloseTimer}
-      >
+      <div className={classNames(className)} style={props.style}>
         <div className={`${componentClass}-content`}>{props.children}</div>
           {props.closable ?
             <a tabIndex="0" onClick={this.close} className={`${componentClass}-close`}>

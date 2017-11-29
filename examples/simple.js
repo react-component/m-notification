@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
-import 'rc-notification/assets/index.less';
-import Notification from 'rc-notification';
+import 'rmc-notification/assets/index.less';
+import Notification from 'rmc-notification';
 import React from 'react';
 import ReactDOM from 'react-dom';
 let notification = null;

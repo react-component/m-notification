@@ -9,7 +9,7 @@ import Notification from '../src/';
 
 require('../assets/index.less');
 
-describe('rc-notification', () => {
+describe('rmc-notification', () => {
   it('works', (done) => {
     Notification.newInstance({}, notification => {
       notification.notice({

@@ -1,6 +1,6 @@
 {
-  "name": "rc-notification",
-  "version": "3.0.0",
+  "name": "rmc-notification",
+  "version": "1.0.0",
   "description": "notification ui component for react",
   "keywords": [
     "react",
@@ -9,11 +9,7 @@
     "notification"
   ],
   "homepage": "http://github.com/react-component/notification",
-  "maintainers": [
-    "yiminghe@gmail.com",
-    "skyking_H@hotmail.com",
-    "hust2012jiangkai@gmail.com"
-  ],
+  "maintainers": [],
   "files": [
     "dist",
     "lib",
@@ -22,10 +18,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:react-component/notification.git"
+    "url": "git@github.com:react-component/m-notification.git"
   },
   "bugs": {
-    "url": "http://github.com/react-component/notification/issues"
+    "url": "http://github.com/react-component/m-notification/issues"
   },
   "licenses": "MIT",
   "main": "lib/index",
@@ -33,7 +29,7 @@
   "config": {
     "port": 8000,
     "entry": {
-      "rc-notification": [
+      "rmc-notification": [
         "./assets/index.less",
         "./src/index.js"
       ]

@@ -22,7 +22,7 @@ class Notification extends Component {
   };
 
   static defaultProps = {
-    prefixCls: 'rc-notification',
+    prefixCls: 'rmc-notification',
     animation: 'fade',
     style: {
       top: 65,
